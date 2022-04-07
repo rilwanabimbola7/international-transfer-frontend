@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link href="rand.css"rel="stylesheet">
+    <title>Exchange Rate</title>
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="form registry">
+                <span class="title">Exchanger</span>
+                <form action="#" >
+                    <div class="input-field">
+                        <input type="text" id="senderfname" name="senderfname" placeholder="Sender First Name" onblur="validate(1)" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="senderlname" name="senderlname" placeholder="Sender Last Name" onblur="validate(2)" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" id="senderemail" name="senderemail" placeholder="Sender Email" onblur="validate(3)" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="senderphone" name="senderphone" placeholder="Sender Phone Number" onblur="validate(4)" required>
+                        <i class="uil uil-phone"></i>
+                    </div>                                                            
+                    <div class="input-field">
+                        <input type="text" id="nairaamount" name = "nairaamount" placeholder="Amount in Naira" onblur="validate(5)" required>
+                    
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="dollaramount" name = "dollaramount" placeholder="Amount in Dollars" onblur="validate(6)" required>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id = "receiverfirstname" name = "receiverfirstname" placeholder="Receiver First Name" onblur = "validate(7)" required>
+                        <i class="uil uil-user"></i>                  
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id = "receiverlastname" name = "receiverlastname" placeholder="Receiver Last Name" onblur = "validate(8)" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id = "receiveremail" name = "receiveremail" placeholder="Receiver Email" onblur = "validate(9)"required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id = "receiverphonenumber" name = "receiverphonenumber" placeholder="Receiver Phone Number" onblur="validate(10)" required>
+                        <i class="uil uil-phone"></i>
+                    </div>                                   
+                    <div class="input-field">
+                        <input type="text" id = "receiverbankname" name = "receiverbankname" placeholder="Receiver Bank Name" onblur="validate(11)" required>
+                        
+                    </div>                                                                                     
+                    <div class="input-field">
+                        <input type="text" id = "receiveraccountnumber" name = "receiveraccountnumber" placeholder="Receiver Account Number" onblur=" validate(12)" required>
+                    
+                    </div>                                                            
+                    <div class="input-field">
+                        <input type="text" id = "narration" name = "narration" placeholder="Narration" >
+                        <i class="uil uil-pen"></i>
+                    </div>                                                            
+                    <div class="input-field button">
+                        <input type="submit" value="Submit">
+                    </div>
+                    <div class="login-signup">
+                        <span class="text">You can clear the page here?
+                            <a href="#" class="text login-link">Reset</a>
+                        </span>
+                    </div>
+                </form>
+            
+            </div>
+        </div>
+    </div>
+    
+        
+    <script src="exchange.js"></script>
+</body>
+</html>
